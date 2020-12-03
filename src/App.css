@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
+  background-image: url('./drums.jpeg');
+  background-size: cover;
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.App-header {
   font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.drumkit {
+  font-family: monospace;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.soundTiles {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.😴 {
+  font-weight: bold;
+}
+
+.selected-button {
+  transition: background 200ms;
+  animation: 500ms fadeInOut forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+
+  45%,
+  55% {
+    opacity: 0;
   }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.secret {
+  position: fixed;
+  top: 50px;
+  left: 20vh;
+  width: 500px;
 }
