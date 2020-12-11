@@ -1,6 +1,6 @@
 .App {
   background-color: #282c34;
-  background-image: url('./day01/drums.jpeg');
+  background-image: url('./drums.jpeg');
   background-size: cover;
   text-align: center;
   min-height: 100vh;
@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: blue;
+  color: white;
   position: relative;
 }
 

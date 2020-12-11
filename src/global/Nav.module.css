@@ -1,0 +1,20 @@
+:root {
+  --header-height: 70px;
+}
+
+.container {
+  display: flex;
+  height: var(--header-height);
+  padding: 0 24px;
+  background: powderblue;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  transition: background 300ms;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+
+}
