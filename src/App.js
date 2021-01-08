@@ -8,6 +8,7 @@ import DrumKit from './day01/DrumKit';
 import Nav from './global/Nav';
 import Home from './global/Home';
 import Clock from './day02/Clock.js';
+import Infinity from './day∞/∞.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route path='/day01' component={DrumKit} />
         <Route path='/day02' component={Clock} />
+        <Route path='/day∞' component={Infinity} />
         <Route path='/' component={Home} />
       </Switch>
     </Router>

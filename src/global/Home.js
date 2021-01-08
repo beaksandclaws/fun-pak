@@ -8,6 +8,8 @@ function Home() {
       <hr />
       I'M TALKING TO YOU
       <hr />
+      WHAT HAPPENED HERE
+      <hr />
     </main>
   );
 }

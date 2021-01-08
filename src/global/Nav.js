@@ -13,9 +13,9 @@ function Nav() {
       <Link to='/day02' className='nav-link'>
         DAY TWO
       </Link>
-      <div>
-        EMPH<span className='emphAsis'>A</span>SIS
-      </div>
+      <Link to='/day∞' className='nav-link'>
+        DAY ∞
+      </Link>
     </nav>
   );
 }
